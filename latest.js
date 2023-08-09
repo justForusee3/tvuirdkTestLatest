@@ -188,7 +188,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Keydown event: Play video on "Enter" key press
     videoCard.addEventListener("keydown", function (event) {
-        if (event.keyCode === 13) {
+        console.log("hello");
+        if (event.key === "Enter") {
             togglePlayPause();
         }
     });
