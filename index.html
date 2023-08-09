@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDK TV UI</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <img src="./assets/Logo/RDK-Logo-without-RefDesign.png" class="logo" alt="RDK Logo">
+        <nav class="main-nav">
+            <ul class="main-nav-lists">
+                <li><a href="#" class="main-nav-link"><img src="./assets/ICONS/the-alexa-logo.thumb.800.480.png" class="google" alt=""></a></li>
+                <li><a href="#" class="main-nav-link">SCAN</a></li>
+                <li><a href="#" class="main-nav-link">GUIDE</a></li>
+                <li><a href="#" class="main-nav-link"><img src="./assets/ICONS/bell-regular.svg" class="svg" alt=""></a></li>
+                <li><a href="#" class="main-nav-link"><img src="./assets/ICONS/gear-solid.svg" class="svg" alt=""></a></li>
+                <li><a href="#" class="main-nav-link"  id="clock-link">12:24</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="slider">
+                <div class="slide-content">
+                    <h1 class="movie-title">Avengers</h1>
+                    <p class="movie-des"><strong>Director & Producer</strong> : Mahantesh | 2023 Upcomming Movie</p>
+                </div>
+                <img src="./assets/img/Avengers.jpg"  alt="">
+            </div>
+        </div>
+        <div class="apps">
+            <img src="./assets/ICONS/appsColor.png" class="app-img" alt="">
+            <h4 class="heading-apps">APPS</h4>
+        </div>
+
+        
+    </div>
+
+    <div class="multiple-languages">
+        <ul class="language">
+            <li class="language-list">KANNADA</li>
+            <li class="language-list">TAMIL</li>
+            <li class="language-list">HINDI</li>
+            <li class="language-list">ENGLISH</li>
+            <li class="language-list">TELUGU</li>
+        </ul>
+    </div>
+
+    <div class="video-card-container">
+        <div class="video-card video-container">
+            <video id="videoPlayer" class="dash-video"></video>
+            <button id="playButton" class="play-button">Play</button>
+        </div>
+
+
+        <div class="video-card video-container">
+            <video id="videoPlayer" class="dash-video"></video>
+            <button id="playButton" class="play-button">Play</button>
+        </div>
+        <!-- <div class="video-card">
+            <img src="images/disney.PNG" class="video-card-image" alt="">
+            <video src="videos/disney.mp4" mute loop class="card-video"></video>
+        </div> -->
+
+        <div class="video-card video-container">
+            <video id="videoPlayer" class="dash-video" autoplay muted></video>
+            <button id="playButton" class="play-button">Play</button>
+        </div>
+        <!-- <div class="video-card">
+            <img src="images/pixar.PNG" class="video-card-image" alt="">
+            <video src="videos/pixar.mp4" mute loop class="card-video"></video>
+        </div> -->
+
+        <div class="video-card video-container">
+            <video id="videoPlayer" class="dash-video"></video>
+            <button id="playButton" class="play-button">Play</button>
+        </div>
+
+        <!-- <div class="video-card">
+            <img src="images/marvel.PNG" class="video-card-image" alt="">
+            <video src="videos/marvel.mp4" mute loop class="card-video"></video>
+        </div> -->
+
+        <div class="video-card video-container">
+            <video id="videoPlayer" class="dash-video"></video>
+            <button id="playButton" class="play-button">Play</button>
+        </div>
+
+        <!-- <div class="video-card">
+            <img src="images/star-wars.PNG" class="video-card-image" alt="">
+            <video src="videos/star-war.mp4" mute loop class="card-video"></video>
+        </div> -->
+
+        <!-- <div class="video-card">
+            <img src="images/geographic.PNG" class="video-card-image" alt="">
+            <video src="videos/geographic.mp4" mute loop class="card-video"></video>
+        </div> -->
+    </div>
+
+     
+    </div>
+   
+    
+    <script src="./app.js"></script>
+    <script src="./data.js"></script>
+    <!-- <script src="./player.js"></script> -->
+    <script src="./latest.js"></script>
+</body>
+</html>
